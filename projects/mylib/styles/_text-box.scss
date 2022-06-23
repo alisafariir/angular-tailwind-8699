@@ -1,0 +1,11 @@
+@layer components {
+    .editor-container {
+        @apply flex bg-white shadow-sm border-2 border-solid border-black rounded;
+    }
+    .lib-text-box {
+        @apply flex bg-white shadow-sm border-2 border-solid border-black rounded;
+        input{
+            @apply flex-1
+        }
+    }
+}

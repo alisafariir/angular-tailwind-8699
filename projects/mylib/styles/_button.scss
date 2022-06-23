@@ -1,0 +1,7 @@
+@layer components {
+    .lib-button {
+        & > button {
+            @apply p-5 text-sm relative inline-flex items-center justify-center select-none font-medium whitespace-nowrap overflow-hidden text-ellipsis transition-all bg-blue-600;
+        }
+    }
+}
